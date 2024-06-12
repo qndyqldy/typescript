@@ -1,0 +1,12 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ES2021",
+    "outDir": "dist",
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleDetection": "force",
+    "allowJs": true
+  }
+}
