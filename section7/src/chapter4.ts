@@ -35,5 +35,6 @@ class List<T> {
         console.log(this.list);
     }
 }
+let list2 = new List([1, 2, 3]);
 let list = new List(['hi', 'hello', 'wook']);
 list.print();

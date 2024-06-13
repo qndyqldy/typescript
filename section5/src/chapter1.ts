@@ -44,7 +44,7 @@ interface DogCat extends Dog, Cat {
 
 }
 
-const dogCat = {
+const dogCat: DogCat = {
     name: '',
     age: 0,
     isBark: true,

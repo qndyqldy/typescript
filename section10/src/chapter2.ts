@@ -22,6 +22,7 @@ const legacyPost: Pick<Post, 'title' | 'content'> = {
     content: '옛날 내용'
 }
 
+
 /**
  * Omit<T, K> -> 생략하다, 빼다
  * 객체 타입으로부터 특정 프로퍼티를 제거하는 타입

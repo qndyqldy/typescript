@@ -32,3 +32,12 @@ function warning(animal: Animal) {
     }
 }
 
+
+let cat2: Animal = {
+    name: '절구',
+    isScratch: true
+} as Cat;
+
+function test (value: Animal): value is Cat {
+    return (value as Cat).isScratch !== undefined;
+}

@@ -30,3 +30,23 @@ function forEach<T>(arr: T[], callback: (item: T) => void) {
     }
 }
 forEach(['hi', 'hello'], (it) => console.log(it));
+
+
+function forEach2<T>(arr: T[], callback: (data: T) => void): void {
+
+    for(let i = 0; i < arr.length; i++) {
+        callback(arr[i]);
+    }
+}
+
+function map2<T, U>(arr:T[], callback:(data:T) => U): U[] {
+    let result = [];
+
+    for(let i = 0; i < arr.length; i++) {
+        result.push(
+            callback(arr[i])
+        )
+    }
+
+    return result;
+}

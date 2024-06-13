@@ -32,7 +32,7 @@ function fetchUser(): ReadonlyUser {
 }
 
 // 한명의 유저 정보를 수정하는 기능
-function updateUser(user: User) {
+function updateUser(user: PartialUser) {
     // ... 수정하는 기능
 }
 
@@ -40,7 +40,6 @@ function updateUser(user: User) {
 updateUser({
     id: 1,
     name: '영욱',
-    age: 25
 });
 
 const user = fetchUser();

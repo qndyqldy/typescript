@@ -37,6 +37,11 @@ let cat = {
     name: '절구',
     color: 'black&white'
 } as const;
+let cat2: Readonly<object>= {
+    name: '',
+    color: ''
+
+}
 
 /**
  * Non Null 단언

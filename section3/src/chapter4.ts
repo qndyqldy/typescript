@@ -18,7 +18,7 @@ type Person = {
     language: string;
 }
 
-type Union1 = Dog | Person;
+type  Union1= Dog | Person;
 
 let union1: Union1 = {
     name: '욱',
